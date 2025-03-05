@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+
+    <style>
+      .attribution {
+        color: var(--clr-white);
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: var(--clr-green);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="flex-column">
+      <div class="card" role="region" aria-labelledby="card-title">
+        <img
+          src="/assets//images/avatar-jessica.jpeg"
+          class="card--avatar"
+          alt="Jessica Randall Avatar"
+        />
+
+        <div class="flex-column card--name-location">
+          <h1>Jessica Randall</h1>
+          <h2>London, United Kingdom</h2>
+        </div>
+
+        <p>"Front-end developer and avid reader."</p>
+
+        <ul
+          class="flex-column card--social-networks"
+          role="list"
+          aria-labelledby="social-links"
+        >
+          <li>
+            <a href="#" role="link" aria-label="Jessica's GitHub profile"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              role="link"
+              aria-label="Jessica's Frontend Mentor profile"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li>
+            <a href="#" role="link" aria-label="Jessica's LinkedIn profile"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="#" role="link" aria-label="Jessica's Twitter profile"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a href="#" role="link" aria-label="Jessica's Instagram profile"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="attribution" role="contentinfo">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </main>
+  </body>
+</html>

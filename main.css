@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --width-mobile: 375px;
-  --width-desktop: 1440px;
-
   --ff: "Inter", sans-serif;
   --fw-normal: 400;
   --fw-semi-bold: 600;
